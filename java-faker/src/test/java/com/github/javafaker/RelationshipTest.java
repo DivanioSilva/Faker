@@ -5,8 +5,6 @@ import static org.hamcrest.core.IsNot.not;
 import static org.junit.Assert.assertThat;
 import static org.mockito.Mockito.when;
 
-import com.github.javafaker.representation.Faker;
-import com.github.javafaker.representation.Relationships;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;

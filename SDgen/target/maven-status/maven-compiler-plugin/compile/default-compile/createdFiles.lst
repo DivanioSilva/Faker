@@ -1,5 +1,6 @@
 au/com/anthonybruno/definition/FieldDefinition.class
 au/com/anthonybruno/settings/FixedWidthField.class
+au/com/anthonybruno/creator/XlsxFactory.class
 au/com/anthonybruno/generator/format/ToStringFormatter.class
 au/com/anthonybruno/generator/defaults/ByteGenerator.class
 au/com/anthonybruno/settings/CsvSettings$Builder.class
@@ -12,7 +13,6 @@ au/com/anthonybruno/Gen.class
 au/com/anthonybruno/record/Record.class
 au/com/anthonybruno/generator/format/DateFormatter.class
 au/com/anthonybruno/generator/defaults/BooleanGenerator.class
-au/com/anthonybruno/writer/WriterFactory.class
 au/com/anthonybruno/Main.class
 au/com/anthonybruno/record/factory/RecordFactory.class
 au/com/anthonybruno/settings/CsvSettings.class
@@ -24,6 +24,7 @@ au/com/anthonybruno/creator/FlatFileFactory.class
 au/com/anthonybruno/settings/FixedWidthSettings.class
 au/com/anthonybruno/writer/csv/AbstractCsvWriter.class
 au/com/anthonybruno/generator/OptionGenerator.class
+au/com/anthonybruno/settings/XlsxSettings.class
 au/com/anthonybruno/definition/FileTypeDefinition.class
 au/com/anthonybruno/utils/ArgumentUtils.class
 au/com/anthonybruno/creator/FixedWidthFactory.class
@@ -36,6 +37,7 @@ au/com/anthonybruno/record/factory/FieldsRecordFactory.class
 au/com/anthonybruno/writer/FlatFileWriter.class
 au/com/anthonybruno/generator/defaults/FloatGenerator.class
 au/com/anthonybruno/record/DefaultRecordSupplier.class
+au/com/anthonybruno/writer/CsvWriterFactory.class
 au/com/anthonybruno/annotation/Index.class
 au/com/anthonybruno/generator/defaults/ShortGenerator.class
 au/com/anthonybruno/generator/defaults/IntGenerator.class

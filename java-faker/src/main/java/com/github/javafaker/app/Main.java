@@ -1,7 +1,7 @@
 package com.github.javafaker.app;
 
 import au.com.anthonybruno.Gen;
-import com.github.javafaker.representation.Faker;
+import com.github.javafaker.Faker;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package com.github.javafaker.idnumbers;
 
-import com.github.javafaker.representation.Faker;
+import com.github.javafaker.Faker;
 
 public class EnIdNumber {
     private static final String[] invalidSSNPatterns = {

@@ -7,6 +7,7 @@
 /Users/dcsilva/Projects/Git/Faker/SDgen/src/main/java/au/com/anthonybruno/creator/FileFactory.java
 /Users/dcsilva/Projects/Git/Faker/SDgen/src/main/java/au/com/anthonybruno/creator/FixedWidthFactory.java
 /Users/dcsilva/Projects/Git/Faker/SDgen/src/main/java/au/com/anthonybruno/creator/FlatFileFactory.java
+/Users/dcsilva/Projects/Git/Faker/SDgen/src/main/java/au/com/anthonybruno/creator/XlsxFactory.java
 /Users/dcsilva/Projects/Git/Faker/SDgen/src/main/java/au/com/anthonybruno/definition/FieldData.java
 /Users/dcsilva/Projects/Git/Faker/SDgen/src/main/java/au/com/anthonybruno/definition/FieldDefinition.java
 /Users/dcsilva/Projects/Git/Faker/SDgen/src/main/java/au/com/anthonybruno/definition/FileTypeDefinition.java
@@ -43,13 +44,14 @@
 /Users/dcsilva/Projects/Git/Faker/SDgen/src/main/java/au/com/anthonybruno/settings/FixedWidthSettings.java
 /Users/dcsilva/Projects/Git/Faker/SDgen/src/main/java/au/com/anthonybruno/settings/FlatFileSettings.java
 /Users/dcsilva/Projects/Git/Faker/SDgen/src/main/java/au/com/anthonybruno/settings/Settings.java
+/Users/dcsilva/Projects/Git/Faker/SDgen/src/main/java/au/com/anthonybruno/settings/XlsxSettings.java
 /Users/dcsilva/Projects/Git/Faker/SDgen/src/main/java/au/com/anthonybruno/utils/ArgumentUtils.java
 /Users/dcsilva/Projects/Git/Faker/SDgen/src/main/java/au/com/anthonybruno/utils/Lazy.java
 /Users/dcsilva/Projects/Git/Faker/SDgen/src/main/java/au/com/anthonybruno/utils/ReflectionUtils.java
 /Users/dcsilva/Projects/Git/Faker/SDgen/src/main/java/au/com/anthonybruno/utils/TextFile.java
 /Users/dcsilva/Projects/Git/Faker/SDgen/src/main/java/au/com/anthonybruno/writer/AbstractWriter.java
+/Users/dcsilva/Projects/Git/Faker/SDgen/src/main/java/au/com/anthonybruno/writer/CsvWriterFactory.java
 /Users/dcsilva/Projects/Git/Faker/SDgen/src/main/java/au/com/anthonybruno/writer/FlatFileWriter.java
-/Users/dcsilva/Projects/Git/Faker/SDgen/src/main/java/au/com/anthonybruno/writer/WriterFactory.java
 /Users/dcsilva/Projects/Git/Faker/SDgen/src/main/java/au/com/anthonybruno/writer/csv/AbstractCsvWriter.java
 /Users/dcsilva/Projects/Git/Faker/SDgen/src/main/java/au/com/anthonybruno/writer/csv/UnivocityCsvWriter.java
 /Users/dcsilva/Projects/Git/Faker/SDgen/src/main/java/au/com/anthonybruno/writer/fixedwidth/AbstractFixedWidthWriter.java

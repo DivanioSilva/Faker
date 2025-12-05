@@ -1,8 +1,8 @@
 package com.github.javafaker.service;
 
 import com.github.javafaker.AbstractFakerTest;
-import com.github.javafaker.representation.Faker;
-import com.github.javafaker.representation.Superhero;
+import com.github.javafaker.Faker;
+import com.github.javafaker.Superhero;
 import org.hamcrest.core.Is;
 import org.junit.Before;
 import org.junit.Test;

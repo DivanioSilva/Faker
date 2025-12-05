@@ -4,7 +4,7 @@ import au.com.anthonybruno.record.RecordSupplier;
 import au.com.anthonybruno.record.factory.RecordFactory;
 import au.com.anthonybruno.settings.FixedWidthSettings;
 import au.com.anthonybruno.utils.TextFile;
-import au.com.anthonybruno.writer.WriterFactory;
+import au.com.anthonybruno.writer.CsvWriterFactory;
 import au.com.anthonybruno.writer.fixedwidth.AbstractFixedWidthWriter;
 
 import java.io.File;
@@ -19,7 +19,7 @@ public class FixedWidthFactory extends FlatFileFactory<FixedWidthSettings> {
     @Override
     public String createString(int numToGenerate) {
         StringWriter stringWriter = new StringWriter();
-        try (AbstractFixedWidthWriter fixedWidthWriter = WriterFactory.getDefaultFixedWidthWriter(stringWriter, settings)) {
+        try (AbstractFixedWidthWriter fixedWidthWriter = CsvWriterFactory.getDefaultFixedWidthWriter(stringWriter, settings)) {
             generateAndWriteValues(fixedWidthWriter, numToGenerate);
         }
         return stringWriter.toString();
@@ -39,7 +39,7 @@ public class FixedWidthFactory extends FlatFileFactory<FixedWidthSettings> {
 
     @Override
     public File createFile(File file, int numToGenerate) {
-        try (AbstractFixedWidthWriter fixedWidthWriter = WriterFactory.getDefaultFixedWidthWriter(new TextFile(file).getWriter(), settings)) {
+        try (AbstractFixedWidthWriter fixedWidthWriter = CsvWriterFactory.getDefaultFixedWidthWriter(new TextFile(file).getWriter(), settings)) {
             generateAndWriteValues(fixedWidthWriter, numToGenerate);
         }
         return file;

@@ -1,5 +1,6 @@
 package com.github.javafaker;
 
+import com.github.javafaker.representation.CreditCardType;
 import org.apache.commons.validator.routines.checkdigit.LuhnCheckDigit;
 import org.junit.Test;
 

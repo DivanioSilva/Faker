@@ -1,6 +1,7 @@
 package com.github.javafaker;
 
 import com.github.javafaker.repeating.Repeat;
+import com.github.javafaker.representation.Number;
 import com.google.common.base.Function;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
@@ -192,7 +193,7 @@ public class NumberTest extends AbstractFakerTest {
 
     /**
      * Given a number of min/max ranges
-     *  for each min/max range, call {@link Number#randomDouble(int, int, int)} with min/max 'n' times
+     *  for each min/max range, call {@link com.github.javafaker.representation.Number#randomDouble(int, int, int)} with min/max 'n' times
      *  calculate the uniqueness for that given min/max range.
      * For all 'uniqueness' values
      *  verify the percentage of 'uniqueness' ratios over 80% is 90%.

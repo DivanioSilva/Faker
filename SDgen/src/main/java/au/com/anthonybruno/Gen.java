@@ -70,7 +70,8 @@ public class Gen implements FileTypeDefinition, ResultDefinition, StartDefinitio
 
     @Override
     public File toFile(String path) {
-        return toFile(new File(path));
+        File file = new File(path);
+        return toFile(file);
     }
 
     @Override

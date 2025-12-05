@@ -1,5 +1,6 @@
 package com.github.javafaker;
 
+import com.github.javafaker.representation.Faker;
 import org.junit.Test;
 
 import java.util.Locale;

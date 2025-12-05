@@ -1,8 +1,8 @@
 package com.github.javafaker.service;
 
-import com.github.javafaker.Address;
-import com.github.javafaker.Faker;
-import com.github.javafaker.Name;
+import com.github.javafaker.representation.Address;
+import com.github.javafaker.representation.Faker;
+import com.github.javafaker.representation.Name;
 import com.github.javafaker.service.files.EnFile;
 import com.mifmif.common.regex.Generex;
 import org.apache.commons.lang3.ClassUtils;

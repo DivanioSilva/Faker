@@ -1,6 +1,6 @@
 package com.github.javafaker.idnumbers;
 
-import com.github.javafaker.Faker;
+import com.github.javafaker.representation.Faker;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

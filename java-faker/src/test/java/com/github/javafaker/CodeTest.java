@@ -1,6 +1,7 @@
 package com.github.javafaker;
 
 import com.github.javafaker.repeating.Repeat;
+import com.github.javafaker.representation.Faker;
 import org.apache.commons.validator.routines.ISBNValidator;
 import org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit;
 import org.apache.commons.validator.routines.checkdigit.LuhnCheckDigit;

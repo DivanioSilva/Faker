@@ -32,9 +32,7 @@ public class CsvFactory extends FlatFileFactory<CsvSettings> {
             writer.writeRow(records.getFields());
         }
         records.supplyRecords(rowsToGenerate)
-                .forEach(record -> {
-                    writer.writeRecord(record);
-                });
+                .forEach(writer::writeRecord);
     }
 
     @Override

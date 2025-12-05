@@ -1,6 +1,8 @@
 package com.github.javafaker;
 
 import com.github.javafaker.repeating.Repeat;
+import com.github.javafaker.representation.Faker;
+import com.github.javafaker.representation.Internet;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
 import org.apache.commons.validator.routines.EmailValidator;

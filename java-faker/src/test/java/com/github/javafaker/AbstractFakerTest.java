@@ -1,6 +1,7 @@
 package com.github.javafaker;
 
 import com.github.javafaker.repeating.RepeatRule;
+import com.github.javafaker.representation.Faker;
 import org.junit.Before;
 import org.junit.Rule;
 import org.mockito.MockitoAnnotations;

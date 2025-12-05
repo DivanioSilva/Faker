@@ -2,10 +2,11 @@ package au.com.anthonybruno.utils;
 
 import java.io.*;
 import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 
 public class TextFile {
 
-    public static final Charset DEFAULT_ENCODING = Charset.forName("utf-8");
+    public static final Charset DEFAULT_ENCODING = StandardCharsets.UTF_8;
 
     private final File file;
     private final Lazy<String> text;

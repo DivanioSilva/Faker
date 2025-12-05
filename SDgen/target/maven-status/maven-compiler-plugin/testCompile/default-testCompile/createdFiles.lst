@@ -1,0 +1,16 @@
+au/com/anthonybruno/annotated/AnnotatedPerson.class
+au/com/anthonybruno/annotated/GeneratorAnnotationTest.class
+au/com/anthonybruno/annotated/IndexedTest$Pojo.class
+au/com/anthonybruno/generator/format/DateFormatterTest.class
+au/com/anthonybruno/annotated/GeneratorAnnotationTest$UnsupportedTypeClass.class
+au/com/anthonybruno/annotated/AnnotatedPerson$GenderGenerator.class
+au/com/anthonybruno/CsvPojoGenTest.class
+au/com/anthonybruno/Person.class
+au/com/anthonybruno/utils/ArgumentUtilsTest.class
+au/com/anthonybruno/generator/DateGeneratorTest.class
+au/com/anthonybruno/annotated/AnnotatedPerson$NameGenerator.class
+au/com/anthonybruno/annotated/IndexedTest.class
+au/com/anthonybruno/utils/LazyTest.class
+au/com/anthonybruno/FixedWidthPojoGenTest.class
+au/com/anthonybruno/AddFieldsTest.class
+au/com/anthonybruno/generator/PrimitiveGeneratorsTest.class

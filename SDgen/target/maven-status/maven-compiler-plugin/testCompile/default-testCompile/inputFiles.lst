@@ -1,0 +1,12 @@
+/Users/dcsilva/Projects/Git/Faker/SDgen/src/test/java/au/com/anthonybruno/AddFieldsTest.java
+/Users/dcsilva/Projects/Git/Faker/SDgen/src/test/java/au/com/anthonybruno/CsvPojoGenTest.java
+/Users/dcsilva/Projects/Git/Faker/SDgen/src/test/java/au/com/anthonybruno/FixedWidthPojoGenTest.java
+/Users/dcsilva/Projects/Git/Faker/SDgen/src/test/java/au/com/anthonybruno/Person.java
+/Users/dcsilva/Projects/Git/Faker/SDgen/src/test/java/au/com/anthonybruno/annotated/AnnotatedPerson.java
+/Users/dcsilva/Projects/Git/Faker/SDgen/src/test/java/au/com/anthonybruno/annotated/GeneratorAnnotationTest.java
+/Users/dcsilva/Projects/Git/Faker/SDgen/src/test/java/au/com/anthonybruno/annotated/IndexedTest.java
+/Users/dcsilva/Projects/Git/Faker/SDgen/src/test/java/au/com/anthonybruno/generator/DateGeneratorTest.java
+/Users/dcsilva/Projects/Git/Faker/SDgen/src/test/java/au/com/anthonybruno/generator/PrimitiveGeneratorsTest.java
+/Users/dcsilva/Projects/Git/Faker/SDgen/src/test/java/au/com/anthonybruno/generator/format/DateFormatterTest.java
+/Users/dcsilva/Projects/Git/Faker/SDgen/src/test/java/au/com/anthonybruno/utils/ArgumentUtilsTest.java
+/Users/dcsilva/Projects/Git/Faker/SDgen/src/test/java/au/com/anthonybruno/utils/LazyTest.java
